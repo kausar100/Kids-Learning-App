@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center"
+        android:padding="2dp"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:background="@color/background_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/animalsId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:padding="10dp"
+                        android:src="@drawable/animals"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/animals"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/birdsId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circlebackgroundpink"
+                        android:padding="10dp"
+                        android:src="@drawable/birds"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/birds"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/fruitsId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circlebackgroundpink"
+                        android:padding="10dp"
+                        android:src="@drawable/fruits"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/fruits"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/flowersId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:padding="10dp"
+                        android:src="@drawable/flowers"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/flowers"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/vehicleId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/circlebackgroundgreen"
+                        android:padding="10dp"
+                        android:src="@drawable/vehicle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/vehicle"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/canvasId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:padding="10dp"
+                        android:src="@drawable/color"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/paint"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/capitalLetterId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circlebackgroundpink"
+                        android:padding="10dp"
+                        android:src="@drawable/abc_icon"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/capitalLetter"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:id="@+id/smallLetterId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:padding="10dp"
+                        android:src="@drawable/count"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/number"
+                        android:layout_marginTop="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+</LinearLayout>
